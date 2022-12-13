@@ -1,0 +1,13 @@
+h1 {
+    color: rgb(62, 109, 14);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 25px;
+}
+
+body {
+    background-color: coral;
+    background-image: url(https://images.pexels.com/photos/3052361/pexels-photo-3052361.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+   
+}

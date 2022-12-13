@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internal CSS</title>
+    <!--This is comment-->
+    <style>
+        h1 {
+            color: coral;
+            border: 1px solid red;
+        }
+        p {
+            color: blue;
+            font-size: 20px;
+        }
+        ol{
+            color: orangered;
+            /* This is not css rule. This is comment*/
+            font-size: 22px;
+        }
+        li{
+            color: blue;
+        }
+
+        /* Apllying css to child element*/
+        li:nth-child(1){
+        color: deeppink;
+        }
+        li:nth-child(5){
+        color: green;
+        }
+
+    </style>
+</head>
+<body>
+    <!--Comment is used for useful explaination. It is not on the page
+    it can be multi line as well-->
+    <h1>Internal CSS</h1>
+    <p>Lorem iposeumghjghjjhg</p>
+    <ol>
+        <li>HMTML5</li>
+        <li>CSS</li>
+        <li style="color: red;">Javascript</li>
+        <li>React</li>
+        <li>Node & Express</li>
+    </ol>
+</body>
+</html>
